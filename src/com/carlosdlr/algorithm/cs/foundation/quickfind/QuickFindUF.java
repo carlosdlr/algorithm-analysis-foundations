@@ -6,21 +6,23 @@ package com.carlosdlr.algorithm.cs.foundation.quickfind;
  * for is connected operation es 1 constant due to check if values are equals
  */
 public class QuickFindUF {
-    private final int [] id;
+    private final int[] id;
 
     /**
      * initialize quick-find data structure with N objects
+     *
      * @param N number of objects
      */
     public QuickFindUF(int N) {
         this.id = new int[N];
-        for (int i = 0; i < N; i ++)
+        for (int i = 0; i < N; i++)
             id[i] = i;
     }
 
     /**
      * add connection between p and q
      * to merge this values replace all the id values in id[p] to id[q]
+     *
      * @param p position in the array
      * @param q position in the array
      */
@@ -33,7 +35,8 @@ public class QuickFindUF {
 
     /**
      * check if p and q are connected this if and only if
-     *  array value in position p and array value in position q are equals
+     * array value in position p and array value in position q are equals
+     *
      * @param p
      * @param q
      * @return
