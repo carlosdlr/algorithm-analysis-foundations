@@ -1,8 +1,6 @@
 package com.carlosdlr.algorithm.cs.foundation.datastructures.applications;
 
 import com.carlosdlr.algorithm.cs.foundation.datastructures.GenericStack;
-import edu.princeton.cs.algs4.StdIn;
-
 /**
  * steps of this algorithm
  * 1. Value push onto the value stack
